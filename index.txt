@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!--section for home and header-->
+  <section id="headersec">
+    <!--this div contains the header-->
+    <div id="header">
+      <h3>FIN EDGE</h3>
+      <div id="navdiv">
+        <nav>
+          <a href="#headersec">Home</a>
+          <a href="#aboutsec">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact Us</a>
+          <a><i class="fa fa-user open"></i></a>
+        </nav>
+      </div>
+    </div>
+    <!--  -->
+    <div id="content">
+      <div id="details">
+        <h1>INTRODUCTION</h1>
+        <p>
+          FinEdge is a cutting-edge fintech startup with a clear mission: to revolutionize cross-border payments. By
+          leveraging innovative technology and a deep understanding of the challenges faced by individuals and
+          businesses in conducting international transactions, FinEdge is dedicated to enabling seamless and
+          frictionless financial interactions.
+
+          With a strong vision of transcending geographical boundaries, FinEdge is committed to creating a global
+          ecosystem where individuals and businesses can engage in cross-border transactions effortlessly. Through their
+          advanced platforms and solutions, they aim to simplify the complexities associated with international
+          payments, making it easier for businesses to expand their reach and individuals to navigate the global
+          marketplace.
+
+          At FinEdge, innovation is at the heart of everything they do. Their team of experts continuously explores
+          cutting-edge technologies and develops forward-thinking strategies to streamline cross-border payments. With a
+          focus on security, efficiency, and user experience, they strive to deliver exceptional services that meet the
+          evolving needs of their clients.
+        </p>
+      </div>
+      <div id="illustration">
+        <img src="internimages/1024x1024_Crop_Comp_RGBA_V2.gif">
+      </div>
+    </div>
+  </section>
+  <!--    -->
+  <!--section for about us-->
+  <section id="aboutsec">
+    <h1 style="text-align: center;">About Us</h1>
+    <div id="content">
+      <div id="details">
+        <p>
+          <span style="color:#008CFF; font-weight: bold; letter-spacing:2px;">FinEdge</span> is a dynamic and innovative
+          fintech startup with a bold vision to revolutionize cross-border payments.
+          We are dedicated to breaking down the barriers and complexities associated with international transactions,
+          enabling seamless and efficient financial interactions for individuals and businesses worldwide.
+          At FinEdge, we understand the challenges faced by businesses and individuals when conducting cross-border
+          payments. Geographical boundaries, complex regulatory frameworks, lengthy settlement times, and high
+          transaction
+          costs often hinder the smooth flow of global commerce. We believe there is a better way.
+          Our team of experienced professionals and technologists are passionate about leveraging cutting-edge
+          technology
+          and disruptive solutions to transform the cross-border payment landscape. We are committed to simplifying and
+          optimizing the entire process, ensuring that businesses can expand their reach effortlessly and individuals
+          can
+          transfer funds with confidence and ease.
+        </p>
+      </div>
+      <div id="illustration">
+        <img src="internimages/undraw_team_re_0bfe.svg">
+      </div>
+    </div>
+  </section>
+  <!--  -->
+  <!--services section-->
+  <section id="services">
+    <h1 style="text-align: center;">Our Services</h1>
+    <div id="servicecontainer">
+      <div class="parts">
+        <img src="internimages/undraw_transfer_money_re_6o1h.svg">
+        <h2>individual money transfers</h2>
+      </div>
+      <div class="parts">
+        <img src="internimages/undraw_online_transactions_-02-ka.svg">
+        <h2> business payments</h2>
+      </div>
+      <div class="parts">
+        <img src="internimages/undraw_the_world_is_mine_re_j5cr.svg">
+        <h2>real-time payment tracking</h2>
+      </div>
+    </div>
+  </section>
+  <!----    -->
+
+  <!--contact us form-->
+
+  <section id="contact">
+    <h1 style="text-align: center;">Contact Us</h1>
+    <div id="content">
+      <div id="accounts">
+        <div id="info">
+          <p><i class="fa fa-map-marker"></i>71,Meerut Cantt.,Meerut</p>
+          <p><i class="fa fa-phone"></i>91+7457889545</p>
+          <p><i class="fa fa-envelope"></i>jaicvps@gmail.com</p>
+        </div>
+      </div>
+      <form action="">
+        <h2>Name</h2>
+        <input type="text">
+        <h2>Email</h2>
+        <input type="email">
+        <h2>Message</h2>
+        <textarea></textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!--Section for login form-->
+  <section id="login">
+    <i class="fa fa-times close"></i>
+    <form>
+      <h1>Sign In</h1>
+      <h2>Email</h2>
+      <input type="text">
+      <h2>Password</h2>
+      <input type="email">
+      <div id="forgot">
+        <p>Forgot Password?</p>
+        <p>Click Here</p>
+      </div>
+      <button>Sign In</button>
+    </form>
+  </section>
+  <!--  -->
+
+
+
+
+
+  <!--bottom navbar-->
+  <nav id="rheader">
+    <a href="#headersec"><i class="fa fa-home"></i></a>
+    <a href="#aboutsec"><i class="fas fa-info-circle"></i></a>
+    <a href="#services"><i class="fas fa-globe"></i></a>
+    <a href="#contact"><i class="fas fa-headphones"></i></a>
+    <a><i class="fa fa-user open"></i></a>
+  </nav>
+  <!--  -->
+
+  <!--section for footer-->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>our locations</h3>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+        <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>about us </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>contact us</a>
+      </div>
+
+      <div class="box">
+        <h3>extra links</h3>
+        <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+        <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+      </div>
+
+    </div>
+
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="credit"> created by <span>FinEdge.com</span> | all rights reserved! </div>
+
+  </section>
+  <!--   -->
+
+
+  <!--section for loader-->
+  <section id="loader">
+    <img src="internimages/comp-2.gif">
+  </section>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
